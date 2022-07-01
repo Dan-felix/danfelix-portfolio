@@ -1,4 +1,7 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');* 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+{
     box-sizing: border-box;
   }
   
@@ -23,8 +26,8 @@
   }
   
   img.foto {
-    width: 18em;
-    height: 18em;
+    width: 17.25em;
+    height: 17.25em;
     border-radius: 50%;
     border: 0.25em solid #2E86C1;
     margin-bottom: -6em;
@@ -44,7 +47,7 @@
   .pessoa,
   h2 {
     margin: 0;
-    font-family: "Playfair Display", serif;
+    font-family: 'Roboto', sans-serif;
   }
   
   .pessoa {
@@ -116,8 +119,16 @@
     color: white;
   }
 
+  .periodo {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
   .formacao .conteudo {
     color: white;
+  }
+
+  .formacao .periodo .t60 {
+    font-family: 'Ubuntu', sans-serif;
   }
 
   .formacao .conteudo .periodo {
@@ -172,15 +183,19 @@
   
   .habilidade {
     background-color: white;
-    border-radius: 0.5rem;
+    border-radius: 0.25rem;
     padding: 1.5rem;
-    width: 18rem;
+    width: 15rem;
     margin: 0.75rem;
   }
   
   .habilidade h3 {
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
+  }
+
+  .habilidade .nome {
+    font-family: 'Ubuntu', sans-serif;
   }
   
   .habilidade li + li {
@@ -211,10 +226,14 @@
   
   .projetos li {
     background-color: white;
-    border-radius: 0.5rem;
-    width: 24.45rem;
+    border-radius: 0.25rem;
+    width: 21.55rem;
     padding: 1.5rem;
     margin: 0.75rem;
+  }
+
+  .projetos p {
+    font-family: 'Ubuntu', sans-serif;
   }
   
   .projetos h3 {
@@ -237,6 +256,8 @@
     line-height: 1.375;
     font-weight: 600;
     border: 0;
+    float: right;
+  
   }
 
   .projetos img {
@@ -246,6 +267,7 @@
   }
   
   footer {
+    font-family: 'Roboto', sans-serif;
     background-color: #0c0c0c;
     color: white;
     padding: 1.5rem;
